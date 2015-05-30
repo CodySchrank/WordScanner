@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		487383668B40C26E60B87210 /* libPods-WordScanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E195B274885B39E7644C23EE /* libPods-WordScanner.a */; };
 		823977111AFA844B009B190B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823977101AFA844B009B190B /* AppDelegate.swift */; };
 		823977131AFA844B009B190B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823977121AFA844B009B190B /* ViewController.swift */; };
 		823977161AFA844B009B190B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823977141AFA844B009B190B /* Main.storyboard */; };
 		823977181AFA844B009B190B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823977171AFA844B009B190B /* Images.xcassets */; };
 		8239771B1AFA844B009B190B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823977191AFA844B009B190B /* LaunchScreen.xib */; };
 		823977271AFA844B009B190B /* WordScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823977261AFA844B009B190B /* WordScannerTests.swift */; };
+		823977311AFA8F3C009B190B /* AVCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823977301AFA8F3C009B190B /* AVCamera.swift */; };
+		824B57AB1B006B4200658BAD /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B579E1B006B4200658BAD /* SocketAckManager.swift */; };
+		824B57AC1B006B4200658BAD /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B579F1B006B4200658BAD /* SocketAnyEvent.swift */; };
+		824B57AD1B006B4200658BAD /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B57A01B006B4200658BAD /* SocketEngine.swift */; };
+		824B57AE1B006B4200658BAD /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B57A11B006B4200658BAD /* SocketEngineClient.swift */; };
+		824B57AF1B006B4200658BAD /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B57A21B006B4200658BAD /* SocketEventHandler.swift */; };
+		824B57B01B006B4200658BAD /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B57A31B006B4200658BAD /* SocketFixUTF8.swift */; };
+		824B57B11B006B4200658BAD /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B57A41B006B4200658BAD /* SocketIOClient.swift */; };
+		824B57B21B006B4200658BAD /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B57A51B006B4200658BAD /* SocketLogger.swift */; };
+		824B57B31B006B4200658BAD /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B57A61B006B4200658BAD /* SocketPacket.swift */; };
+		824B57B41B006B4200658BAD /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B57A71B006B4200658BAD /* SocketParser.swift */; };
+		824B57B51B006B4200658BAD /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B57A81B006B4200658BAD /* SocketTypes.swift */; };
+		824B57B61B006B4200658BAD /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B57A91B006B4200658BAD /* SwiftRegex.swift */; };
+		824B57B71B006B4200658BAD /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824B57AA1B006B4200658BAD /* WebSocket.swift */; };
+		82A042901AFAA2FC00D2E088 /* UITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A0428F1AFAA2FC00D2E088 /* UITableViewController.swift */; };
+		82AAA6CC1B00663500E24F22 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 82AAA6CB1B00663500E24F22 /* tessdata */; };
+		82C745111AFAA1110083E5FE /* UsePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C745101AFAA1110083E5FE /* UsePhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +54,27 @@
 		823977201AFA844B009B190B /* WordScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		823977251AFA844B009B190B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		823977261AFA844B009B190B /* WordScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordScannerTests.swift; sourceTree = "<group>"; };
+		823977301AFA8F3C009B190B /* AVCamera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCamera.swift; sourceTree = "<group>"; };
+		824B579E1B006B4200658BAD /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		824B579F1B006B4200658BAD /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		824B57A01B006B4200658BAD /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		824B57A11B006B4200658BAD /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		824B57A21B006B4200658BAD /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		824B57A31B006B4200658BAD /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketFixUTF8.swift; sourceTree = "<group>"; };
+		824B57A41B006B4200658BAD /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		824B57A51B006B4200658BAD /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		824B57A61B006B4200658BAD /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		824B57A71B006B4200658BAD /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParser.swift; sourceTree = "<group>"; };
+		824B57A81B006B4200658BAD /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		824B57A91B006B4200658BAD /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftRegex.swift; sourceTree = "<group>"; };
+		824B57AA1B006B4200658BAD /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		8256DB961AFAD96000B565A4 /* WordScanner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WordScanner-Bridging-Header.h"; sourceTree = "<group>"; };
+		82A0428F1AFAA2FC00D2E088 /* UITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewController.swift; sourceTree = "<group>"; };
+		82AAA6CB1B00663500E24F22 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		82C745101AFAA1110083E5FE /* UsePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsePhotoViewController.swift; sourceTree = "<group>"; };
+		C1412E2FB959A92B9F96F9C8 /* Pods-WordScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-WordScanner/Pods-WordScanner.release.xcconfig"; sourceTree = "<group>"; };
+		C49B3A5E8AAAB15356C72109 /* Pods-WordScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WordScanner/Pods-WordScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		E195B274885B39E7644C23EE /* libPods-WordScanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WordScanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				487383668B40C26E60B87210 /* libPods-WordScanner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +96,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E30C8304AD2951DD6FC100C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C49B3A5E8AAAB15356C72109 /* Pods-WordScanner.debug.xcconfig */,
+				C1412E2FB959A92B9F96F9C8 /* Pods-WordScanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61C368A1A5C3140817E25041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E195B274885B39E7644C23EE /* libPods-WordScanner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		823977021AFA844B009B190B = {
 			isa = PBXGroup;
 			children = (
 				8239770D1AFA844B009B190B /* WordScanner */,
 				823977231AFA844B009B190B /* WordScannerTests */,
 				8239770C1AFA844B009B190B /* Products */,
+				5E30C8304AD2951DD6FC100C /* Pods */,
+				61C368A1A5C3140817E25041 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +136,29 @@
 		8239770D1AFA844B009B190B /* WordScanner */ = {
 			isa = PBXGroup;
 			children = (
+				82AAA6CB1B00663500E24F22 /* tessdata */,
 				823977101AFA844B009B190B /* AppDelegate.swift */,
 				823977121AFA844B009B190B /* ViewController.swift */,
+				823977301AFA8F3C009B190B /* AVCamera.swift */,
 				823977141AFA844B009B190B /* Main.storyboard */,
+				82A0428F1AFAA2FC00D2E088 /* UITableViewController.swift */,
+				82C745101AFAA1110083E5FE /* UsePhotoViewController.swift */,
+				824B579E1B006B4200658BAD /* SocketAckManager.swift */,
+				824B579F1B006B4200658BAD /* SocketAnyEvent.swift */,
+				824B57A01B006B4200658BAD /* SocketEngine.swift */,
+				824B57A11B006B4200658BAD /* SocketEngineClient.swift */,
+				824B57A21B006B4200658BAD /* SocketEventHandler.swift */,
+				824B57A31B006B4200658BAD /* SocketFixUTF8.swift */,
+				824B57A41B006B4200658BAD /* SocketIOClient.swift */,
+				824B57A51B006B4200658BAD /* SocketLogger.swift */,
+				824B57A61B006B4200658BAD /* SocketPacket.swift */,
+				824B57A71B006B4200658BAD /* SocketParser.swift */,
+				824B57A81B006B4200658BAD /* SocketTypes.swift */,
+				824B57A91B006B4200658BAD /* SwiftRegex.swift */,
+				824B57AA1B006B4200658BAD /* WebSocket.swift */,
 				823977171AFA844B009B190B /* Images.xcassets */,
 				823977191AFA844B009B190B /* LaunchScreen.xib */,
+				8256DB961AFAD96000B565A4 /* WordScanner-Bridging-Header.h */,
 				8239770E1AFA844B009B190B /* Supporting Files */,
 			);
 			path = WordScanner;
@@ -119,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8239772A1AFA844B009B190B /* Build configuration list for PBXNativeTarget "WordScanner" */;
 			buildPhases = (
+				E7DBE755094E766A6D09C0F3 /* Check Pods Manifest.lock */,
 				823977071AFA844B009B190B /* Sources */,
 				823977081AFA844B009B190B /* Frameworks */,
 				823977091AFA844B009B190B /* Resources */,
+				9D16FE8944590BADC8AC1F13 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,6 +240,7 @@
 				TargetAttributes = {
 					8239770A1AFA844B009B190B = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z26D67C784;
 					};
 					8239771F1AFA844B009B190B = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -193,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				823977161AFA844B009B190B /* Main.storyboard in Resources */,
+				82AAA6CC1B00663500E24F22 /* tessdata in Resources */,
 				8239771B1AFA844B009B190B /* LaunchScreen.xib in Resources */,
 				823977181AFA844B009B190B /* Images.xcassets in Resources */,
 			);
@@ -207,13 +288,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D16FE8944590BADC8AC1F13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WordScanner/Pods-WordScanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7DBE755094E766A6D09C0F3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		823977071AFA844B009B190B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824B57AB1B006B4200658BAD /* SocketAckManager.swift in Sources */,
 				823977131AFA844B009B190B /* ViewController.swift in Sources */,
+				824B57B01B006B4200658BAD /* SocketFixUTF8.swift in Sources */,
+				824B57B11B006B4200658BAD /* SocketIOClient.swift in Sources */,
+				824B57AF1B006B4200658BAD /* SocketEventHandler.swift in Sources */,
+				82C745111AFAA1110083E5FE /* UsePhotoViewController.swift in Sources */,
+				824B57B21B006B4200658BAD /* SocketLogger.swift in Sources */,
+				824B57B71B006B4200658BAD /* WebSocket.swift in Sources */,
+				824B57AC1B006B4200658BAD /* SocketAnyEvent.swift in Sources */,
+				824B57AE1B006B4200658BAD /* SocketEngineClient.swift in Sources */,
+				824B57AD1B006B4200658BAD /* SocketEngine.swift in Sources */,
+				824B57B51B006B4200658BAD /* SocketTypes.swift in Sources */,
+				824B57B31B006B4200658BAD /* SocketPacket.swift in Sources */,
+				824B57B41B006B4200658BAD /* SocketParser.swift in Sources */,
 				823977111AFA844B009B190B /* AppDelegate.swift in Sources */,
+				824B57B61B006B4200658BAD /* SwiftRegex.swift in Sources */,
+				82A042901AFAA2FC00D2E088 /* UITableViewController.swift in Sources */,
+				823977311AFA8F3C009B190B /* AVCamera.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,21 +468,34 @@
 		};
 		8239772B1AFA844B009B190B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49B3A5E8AAAB15356C72109 /* Pods-WordScanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WordScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WordScanner/WordScanner-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8239772C1AFA844B009B190B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1412E2FB959A92B9F96F9C8 /* Pods-WordScanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = WordScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WordScanner/WordScanner-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -409,6 +552,7 @@
 				8239772C1AFA844B009B190B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8239772D1AFA844B009B190B /* Build configuration list for PBXNativeTarget "WordScannerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +561,7 @@
 				8239772F1AFA844B009B190B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type ="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		var socket = io.connect()
+		socket.on("connect",function(){
+			console.log("We are using sockets")
+		})
+		socket.on('newText',function(text){
+			$('#text').html(text)
+		})
+	})
+	</script>
+</head>
+<body>
+<h1>Last Reconized Text:</h1>
+<p id="text"></p>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+	"name": "WordScanner",
+	"dependencies": {
+		"express": "*",
+		"socket.io": "*"
+	}
+}
